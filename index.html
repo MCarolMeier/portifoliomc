@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!--padrão de todo o início de projeto-->
+  <html lang="pt-br">
+    <head>
+        <title> Portifólio Taita|Maria Carolina Meier</title>
+        <meta name="description" content="Portifólio de Maria Carolina Meier da Silva, com informações, projetos e contato para trabalho">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tamanho da tela-->
+        <meta name="author" content="Maria Carolina Meier da Silva"> 
+        <meta charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-br"> <!--idioma da página-->
+        <meta name="theme-color" content="e26d5c">
+        <link rel="stylesheet" href="CSS/stile.css"> <!--icone que aparece na aba da página-->
+            <link rel="icon" type="image/png" sizes="16x16" href="ING\FAVICON\favicons\favicon-16x16.png">
+
+    </head>
+
+    <Body>
+        <a href="#conteudo" class="skip-link">Ir para o conteúdo principal</a>
+        <Header role="banner">
+            <nav class="navbar" role="navigation" aria-label="Menu principal">
+                <a href="sobre.html" class="navbar__logo" aria-label="Taita — ir para a página inicial">Taita</a>
+                <button id="nav-toggle" class="navbar__toggle" aria-controls="nav-list" aria-expanded="false" aria-label="Abrir menu de navegação"> <!--menu sanduiche, visível apenas no mobile ;-; -->
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+                <ul id="nav-list" class="navbar__list" role="list">
+                    <li><a href="sobre.html" class="navbar__link">sobre</a></li>
+                    <li><a href="projetos.html" class="navbar__link">projetos</a></li>
+                    <li><a href="contatos.html" class="navbar__link">contato</a></li>
+                </ul>
+            </nav>
+        </Header>
+
+        <main id="conteúdo" class="page-content">
+            <article class="hero-card" aria-labelledby="portfolio-title"> <!--cartão creme no fundo do conteudo escrito-->
+                <div class="hero-card__text"> <!--coluna de texto-->
+                    <div class="bullet-list" aria-hidden="true"> <!--bolinhas pretas simulando furos-->
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                        <span></span>  <span></span>
+                    </div>
+                    <h1 id="portfolio-title" class="hero-card__tirle">Portifólio Taita|M.Carolina Meier</h1>
+                    <p class="hero-card__bio">Olá, meu nome é Maria Carolina Meier da Silva, code name e persona Taita. Comecei a atuar efetivamente na área de design e ilustração em 2024 quando entrei na universidade, tenho experiencia em sintetizar informações para a criação de produtos visuais que atendam as necessidades e expectativas dos clientes. Sou versátil em relação a estilos de ilustração mantendo a essência do meu traço. </p>
+                    <section class="hero-card__section" aria-labelledby="exp-title">
+                        <h3 id="exp-title" class="hero-card__section-title">Experincias</h3>
+                        <ul>
+                            <li>Projeto Efeito Bioma - atuei na equipe de ilustradores para produção de um baralho baseado na fauna e flora brasileira.</li>
+                            <li>Atuo como membro efetivo da empresa CompAct Jr. no departamento de marketing.</li>
+                        </ul>
+                    </section>
+
+                    <section class="hero-card__section" aria-describedby="form-title">
+                        <h3 id="form-title" class="hero-card__section-title">Formação</h3>
+                             <p>Desenho Industrial - Universidade Federal de Santa Maria 2024 - Ainda cursando</p>
+                    </section>
+
+                    <section class="hero-card__section" aria-labelledby="hab-title">
+                        <h3 id="hab-title" class="hero-card__section-title">Habilidades</h3>
+                        <ul class="skills-tags" role="list" aria-label="Lista de habilidades">
+                            <li class="skills-tags">Cartazes / Posters</li>
+                            <li class="skills-tags">Ilustração</li>
+                            <li class="skills-tags">Identidade de Marca</li>
+                            <li class="skills-tags">Edição de Video</li>
+                            <li class="skills-tags">Interfaces</li>
+                        </ul>
+                    </section>
+                    <section class="hero-card__section" aria-labelledby="soft-title">
+                        <h3 id="soft-title" class="hero-card__section-title">Softwares</h3>
+                        <ul class="softwares-tags" role="list" aria-labelledby="Lista de softwares">
+                            <li class="softwares-tags" role="img">
+                                <img src="corel_logo">CorelDraw</li>
+                            <li class="softwares-tags" role="img">
+                                <img src="Clipstudiopaint_logo">Clipstudiopaint</li>
+                            <li class="softwares-tags" role="img">
+                                <img src="Id_logo">Indesign</li>
+                            <li class="softwares-tags" role="img">
+                                <img src="Ps_logo">Photoshop</li>
+                            <li class="softwares-tags" role="img">
+                                <img src="sketchup_curso">Sketchup</li>
+                            <li class="softwares-tags" role="img">
+                                <img src="Wondershare_filmora_logo">Wonderchare Filmora</li>
+                        </ul>
+                    </section>
+                </div>
+                <aside class="hero-card__photo-col" aria-label="Foto da autora">
+                    <div class="polaroid" role="img" aria-label="Foto de perfil de Maria Carolina Meier">
+                        <div style="width:180px;height:200px;background:linear-gradient(135deg,#b5a0c0,#8c7a9c);display:flex;align-items:center;justify-content:center;font-size:3rem;" aria-hidden="true">
+                            <img src="Me.jpg" alt="Uma pessoa jovem olhando levemente para cima, com expressão pensativa. Usa óculos de armação fina metálica, um chapéu bucket preto e um moletom preto. Tem cabelo escuro curto visível nas bordas do chapéu, e segura a mão perto do queixo. Há um fone de ouvido com fio pendurado. O fundo é uma parede clara com uma janela de grade metálica" class="polaroid-img">
+                        </div>
+                    </div>
+                    <svg class="deco" width="54" height="54" viewBox="0 0 54 54" aria-hidden="true" focusable="false">
+                        <path d="M27 4 L30.5 20 L47 20 L34 30 L38 47 L27 38 L16 47 L20 30 L7 20 L23.5 20 Z" fill="none" stroke="#1a1210" atroke-width="2.5" stroke-linejoin="round"></path>
+                    </svg>
+
+                    <svg  class="deco" width="44" height="44" viewBox="0 0 44 44" aria-hidden="true" focusable="false">
+                        <path d="M22 38 C22 38 5 27 5 15 C5 9 10 5 16 7 C19 8 21 11 22 13 C23 11 25 8 28 7 C34 5 39 9 39 15 C39 27 22 38 22 38 Z" fill="none" stroke="#1a1210" stroke-width="2" stroke-dasharray="4 3">
+                        </path>
+                    </svg>
+                </aside>
+            </article>
+        </main>
+        
+        <footer role="contentinfo">
+            <p>2024 Taita | M. Carolina Meier &mdash; Todos os direitos reservados.</p>
+        </footer>
+        <script src="nav.js"></script>
+    </Body>
+
+</html>
