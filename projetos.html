@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!--padrão de todo o início de projeto-->
+    <html lang="pt-br">
+
+    <head>
+        <title> Portifólio Taita|Maria Carolina Meier | Projetos</title>
+        <meta name="description" content="Portifólio de Maria Carolina Meier da Silva, projetos feitos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tamanho da tela-->
+        <meta name="author" content="Maria Carolina Meier da Silva"> 
+        <meta charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-br"> <!--idioma da página-->
+        <meta name="theme-color" content="e26d5c">
+        <link rel="stylesheet" href="CSS/projetos.css"> <!--icone que aparece na aba da página-->
+            <link rel="icon" type="image/png" sizes="16x16" href="ING\FAVICON\favicons\favicon-16x16.png">
+    </head>
+
+    <body>
+           <a href="#conteudo" class="skip-link">Ir para o conteúdo principal</a>
+        <Header role="banner">
+            <nav class="navbar" role="navigation" aria-label="Menu principal">
+                <a href="sobre.html" class="navbar__logo" aria-label="Taita — ir para a página inicial">Taita</a>
+                <button id="nav-toggle" class="navbar__toggle" aria-controls="nav-list" aria-expanded="false" aria-label="Abrir menu de navegação"> <!--menu sanduiche, visível apenas no mobile ;-; -->
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+                <ul id="nav-list" class="navbar__list" role="list">
+                    <li><a href="sobre.html" class="navbar__link">sobre</a></li>
+                    <li><a href="projetos.html" class="navbar__link">projetos</a></li>
+                    <li><a href="contatos.html" class="navbar__link">contato</a></li>
+                </ul>
+            </nav>
+        </Header>
+            <nav class="filters" role="group" aria-label="Filtrar projetos por categoria">
+            <span aria-hidden="true">Filtrar:</span>
+            <button class="filter-btn" data-filter="todos" aria-pressed="true">Todos</button>
+            <button class="filter-btn" data-filter="ilustracao" aria-pressed="false">Ilustração</button>
+            <button class="filter-btn" data-filter="identidade de marca" aria-pressed="false">Identidade de Marca</button>
+            <button class="filter-btn" data-filter="fotografia" aria-pressed="false">Fotografia</button>
+            <button class="filter-btn" data-filter="motion" aria-pressed="false">Motion</button>
+            <button class="filter-btn" data-filter="3D" aria-pressed="false">3D</button>
+            <button class="filter-btn" data-filter="Concept" aria-pressed="false">Concept</button>
+              </nav>
+
+        <main id="galeria">
+            <ul class="gallery" role="list" aria-label="Galeria de projetos">
+                <!-- ----- Projeto 1 - a lebre e a raposa ----- -->
+                <!-- aria-label descreve o cartão inteiro para leitores de tela -->
+                <li role="listitem">
+                    <button class="project-card" data-category="ilustracao" aria-label="Projeto: A Lebre e a Raposa — ilustração. Clique para mais detalhes.">
+                    <div class="frame" aria-hidden="true">
+                        <!-- Placeholder colorido (substituir por <img> com alt descritivo em produção) -->
+                        <div class="frame-placeholder" style="background: linear-gradient(135deg, #c8d6c0, #8fada3);" role="img" aria-label="Imagem do projeto A Lebre e a Raposa">🗺️</div>
+                        <p class="frame-caption">2025</p>
+                    </div>
+                    <div class="project-info">
+                        <h2>A Lebre e a Raposa</h2>
+                        <p>Uma história um pouco complicada</p>
+                        <ul class="tags" aria-label="Categorias">
+                        <li class="tag">Ilustração</li>
+                        </ul>
+                    </div>
+                    </button>
+                </li>
+
+                <!--projeto 2 - feliciade ou tristesa-->
+                <li role="listitem">
+                    <button class="project-card" data-category="ilustracao" aria-label="Projeto: Feliz ou Triste - ilustracao. Clique para mais detalhes.">
+                    <div class="frame" aria-hidden="true">
+                        <div class="frame-placeholder" style="background: linear-gradient(132deg, #c8d6c0, #8fada3);" role="img" aria-label="imagem do projeto Feliz ou Triste"></div>
+                        <p class="frame-caption">2019</p>
+                    </div>
+                    <div class="project-info">
+                        <h2>Feliz ou Triste</h2>
+                        <ul class="tags" aria-label="Categorias">
+                            <li class="tag">Ilustração</li>
+                        </ul>
+                    </div>
+                    </button>
+                </li>
+
+                <!--projeto 3 - head bag -->
+                <li role="listitem">
+                    <button class="project-card" data-category="ilustracao" aria-label="Projeto: Head Bag - ilustracao. Clique para mais detalhes.">
+                    <div class="frame" aria-hidden="true">
+                        <div class="frame-placeholder" style="background: linear-gradient(132deg, #c8d6c0, #8fada3);" role="img" aria-label="imagem do projeto Head Bag."></div>
+                        <p class="frame-caption">2020</p>
+                    </div>
+                    <div class="project-info">
+                        <h2>Head Bag</h2>
+                        <ul class="tags" aria-label="Categorias">
+                            <li class="tag">Ilustração</li>
+                        </ul>
+                    </div>
+                    </button>
+                </li>
+
+                <!--projeto 4 - no espaço -->
+                <li role="listitem">
+                    <button class="project-card" data-category="ilustracao" aria-label="Projeto: No Espaço - ilustracao. Clique para mais detalhes.">
+                    <div class="frame" aria-hidden="true">
+                        <div class="frame-placeholder" style="background: linear-gradient(132deg, #c8d6c0, #8fada3);" role="img" aria-label="imagem do projeto No Espaço"></div>
+                        <p class="frame-caption">2024</p>
+                    </div>
+                    <div class="project-info">
+                        <h2>No Espaço</h2>
+                        <ul class="tags" aria-label="Categorias">
+                            <li class="tag">Ilustração</li>
+                        </ul>
+                    </div>
+                    </button>
+                </li>
+
+
+
+                 <!-- Mensagem exibida quando nenhum projeto corresponde ao filtro -->
+                <p id="empty-msg" role="status" aria-live="polite" style="display:none; text-align:center; color:var(--muted); padding: 3rem 2rem; font-size:0.9rem;">
+                Nenhum projeto encontrado nessa categoria.
+                </p>
+            </ul>
+            
+        </main>
+
+        <footer>
+            <p>Galeria de projetos &mdash; O Explorador Visual</p>
+        </footer>
+    </body>
+
+
+
+
+
+
+
+  </html>
